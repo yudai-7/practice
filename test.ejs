@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>性格テスト</title>
+</head>
+<body>
+    <form action="/result" method="POST">
+        <!-- 質問と回答の部分 (例として一部の質問のみ表示) -->
+        <div class="question">
+            <p>憂鬱になりやすい (Em3)</p>
+            <label><input type="radio" name="Em3" value="1">全くちがう</label>
+            <label><input type="radio" name="Em3" value="2">ちがう</label>
+            <label><input type="radio" name="Em3" value="3">どちらともいえない</label>
+            <label><input type="radio" name="Em3" value="4">そうだ</label>
+            <label><input type="radio" name="Em3" value="5">全くそうだ</label>
+        </div>
+        <!-- 他の質問も同様に追加してください -->
+
+        <button type="submit">回答する</button>
+    </form>
+</body>
+</html>
